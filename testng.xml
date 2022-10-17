@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="cross browser testing">
+
+  <test  name="chrometest">
+<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="fundmodule.Checloginfunctionality"/>
+    </classes>
+  </test> 
+
+
+
+
+
+</suite> <!-- Suite -->
+
