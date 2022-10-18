@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -19,10 +20,13 @@ public class Baseclass1 {
 	static ExtentTest extenttest;
 	
 	public static WebDriver getdriver(String browser) {
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--disable-notifications");
+		
 		if(driver==null) {
 			if(browser.equals("chrome")) {
 				WebDriverManager.chromedriver().setup();
-				 driver = new ChromeDriver();
+				 driver = new ChromeDriver(options);
 			}else {
 				WebDriverManager.firefoxdriver().setup();
 				driver= new FirefoxDriver();

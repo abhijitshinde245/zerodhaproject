@@ -6,9 +6,9 @@
     <classes>
       <class name="fundmodule.Checloginfunctionality">
         <methods>
-          <include name="verifyusercanaddfund"/>
           <include name="afterclass"/>
           <include name="aftermethod"/>
+          <include name="verifypaymentstatus"/>
           <include name="beforemethod"/>
           <include name="beforeclass"/>
         </methods>

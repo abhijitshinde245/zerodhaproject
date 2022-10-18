@@ -50,28 +50,49 @@ public class Checloginfunctionality {
 		 
 	}
 	
-	@Test
+	@Test(priority=1)
 	public static void Verifyusercanlogin() throws IOException, InterruptedException {
 		lp.Userid();
 		lp.Password();
 		lp.Submitbutton();
 		Thread.sleep(7000);
-		if(lp.getprofilename().equals("Abhijeet"))
-		{
-			System.out.println("User can login test case passed" );
-		}else {
-			System.out.println("Test case fail");
-		}
-		//Assert.assertEquals(lp.getprofilename(), "Abhijeet");
+//		if(lp.getprofilename().equals("Abhijeet"))
+//		{
+//			System.out.println("User can login test case passed" );
+//		}else {
+//			System.out.println("Test case fail");
+//		}
+		Assert.assertEquals(lp.getprofilename(), "Abhijeet");
 	    }
-	@Test
-		public static void verifyusercanaddfund() throws InterruptedException {
+	@Test(priority=2)
+		public static void verifyusercanclickonfundbutton() throws InterruptedException {
 			hp.Fundbutton();
-			hp.Addfundbotton();
+			//Assert.assertEquals(hp.Fundbutton(), "Add funds ");
+			
+	}
+			@Test(priority=3)
+			public static void verifyusercanopenaddfundbuttonwindow() {
+				hp.Addfundbotton();
+				//Assert.assertEquals(hp.Depositfundtext(), "Deposit funds");
+				
+			}
+			@Test(priority=4)
+			public static void verifyusercanaddfund() throws InterruptedException {
 			hp.switchtopage();
 			hp.addmoney();
 			hp.Continuebutton();
-		}
+		
+			
+			}
+			@Test(priority=5)
+			public static void verifypaymentstatus() throws InterruptedException {
+				Thread.sleep(10000);
+			System.out.println(hp.getpaymentstatus());
+			//Assert.assertEquals(hp.getpaymentstatus(), "Payment failed");
+			
+			}
+			
+		
 		
 	
 	@AfterMethod

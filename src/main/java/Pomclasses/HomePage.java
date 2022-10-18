@@ -19,15 +19,20 @@ public class HomePage extends UtilClass1{
 	@FindBy(xpath = "(//input[@type='text'])[1]") private WebElement amount;
 	@FindBy(xpath = "(//input[@type='text'])[2]") private WebElement upiid;
 	@FindBy(xpath = "//button[@type='submit']") private WebElement continuebutton;
+	@FindBy(xpath = "//h1[text()='Deposit funds']") private WebElement depositfundtext;
+	@FindBy(xpath = "(//div[@class='addfunds-failure text-center']//child::p)[1]") private WebElement paymentstatus;
 	
 	
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 		this.driver=driver;
 	}
-	public void Fundbutton() {
+	public String Fundbutton() {
 		//UtilClass1.explicitlywait().until(ExpectedConditions.visibilityOf(fundbutton));
 		fundbutton.click();
+		String text = fundbutton.getText();
+		return text;
+		
 	}
 	public void Addfundbotton() {
 		addfundbotton.click();
@@ -54,5 +59,14 @@ public class HomePage extends UtilClass1{
 	}
 	public void Continuebutton()  {
 		continuebutton.click();
+	}
+	public String Depositfundtext() {
+		String DepositFundText = depositfundtext.getText();
+		return DepositFundText;
+	}
+	public String getpaymentstatus() {
+		//UtilClass1.explicitlywait().until(ExpectedConditions.visibilityOf(paymentstatus));
+		String Paymentstatus = paymentstatus.getText();
+	 return Paymentstatus;
 	}
 }
