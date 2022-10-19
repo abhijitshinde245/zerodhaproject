@@ -28,7 +28,7 @@ public class HomePage extends UtilClass1{
 		this.driver=driver;
 	}
 	public String Fundbutton() {
-		//UtilClass1.explicitlywait().until(ExpectedConditions.visibilityOf(fundbutton));
+		
 		fundbutton.click();
 		String text = fundbutton.getText();
 		return text;
@@ -51,7 +51,6 @@ public class HomePage extends UtilClass1{
 	}
 	public void addmoney() {
 		
-		
 		amount.sendKeys("10");
 	}
 	public void Upiid(String key) throws IOException {
@@ -61,12 +60,14 @@ public class HomePage extends UtilClass1{
 		continuebutton.click();
 	}
 	public String Depositfundtext() {
+		explicitlywait(driver,depositfundtext,10);
 		String DepositFundText = depositfundtext.getText();
 		return DepositFundText;
 	}
 	public String getpaymentstatus() {
-		//UtilClass1.explicitlywait().until(ExpectedConditions.visibilityOf(paymentstatus));
+		
 		String Paymentstatus = paymentstatus.getText();
+		
 	 return Paymentstatus;
 	}
 }

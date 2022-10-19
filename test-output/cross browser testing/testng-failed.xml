@@ -8,8 +8,8 @@
         <methods>
           <include name="afterclass"/>
           <include name="aftermethod"/>
-          <include name="verifypaymentstatus"/>
           <include name="beforemethod"/>
+          <include name="verifyusercanopenaddfundbuttonwindow"/>
           <include name="beforeclass"/>
         </methods>
       </class> <!-- fundmodule.Checloginfunctionality -->

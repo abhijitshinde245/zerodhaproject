@@ -67,18 +67,20 @@ public class Checloginfunctionality {
 	@Test(priority=2)
 		public static void verifyusercanclickonfundbutton() throws InterruptedException {
 			hp.Fundbutton();
-			//Assert.assertEquals(hp.Fundbutton(), "Add funds ");
+			Assert.assertEquals(hp.Fundbutton(), "Funds");
 			
 	}
 			@Test(priority=3)
 			public static void verifyusercanopenaddfundbuttonwindow() {
+				
 				hp.Addfundbotton();
-				//Assert.assertEquals(hp.Depositfundtext(), "Deposit funds");
+				hp.switchtopage();
+				Assert.assertEquals(hp.Depositfundtext(), "Deposit funds");
 				
 			}
 			@Test(priority=4)
 			public static void verifyusercanaddfund() throws InterruptedException {
-			hp.switchtopage();
+			
 			hp.addmoney();
 			hp.Continuebutton();
 		
@@ -87,8 +89,7 @@ public class Checloginfunctionality {
 			@Test(priority=5)
 			public static void verifypaymentstatus() throws InterruptedException {
 				Thread.sleep(10000);
-			System.out.println(hp.getpaymentstatus());
-			//Assert.assertEquals(hp.getpaymentstatus(), "Payment failed");
+			Assert.assertEquals(hp.getpaymentstatus(), "Payment failed");
 			
 			}
 			

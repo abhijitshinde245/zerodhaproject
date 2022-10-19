@@ -38,9 +38,9 @@ public class LoginPage extends UtilClass1 {
 	submitbutton.click();
 	}
 	public  String getprofilename() {
-	//	UtilClass1.explicitlywait().until(ExpectedConditions.visibilityOf(profilename));
+		explicitlywait(driver,profilename,10);
 		String Profilename = profilename.getText();
-		System.out.println("Profilename is : " +Profilename);
+		System.out.println("Profile Name is : " +Profilename);
 		return Profilename;
 	}
 	

@@ -10,7 +10,9 @@ import java.util.Properties;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.io.FileHandler;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -26,9 +28,9 @@ public class UtilClass1 {
 		
 	
 	}
-	public static WebDriverWait explicitlywait() {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	return wait;
+	public static void explicitlywait(WebDriver driver,WebElement element,int time) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(time));
+		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 	public static String screenshot(WebDriver driver,String testname) throws IOException {
 		String destination = ""+testname+" .jpg";
