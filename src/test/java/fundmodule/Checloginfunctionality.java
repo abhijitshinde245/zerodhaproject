@@ -74,7 +74,7 @@ public class Checloginfunctionality {
 			public static void verifyusercanopenaddfundbuttonwindow() {
 				
 				hp.Addfundbotton();
-				hp.switchtopage();
+				hp.switchtochildpage();
 				Assert.assertEquals(hp.Depositfundtext(), "Deposit funds");
 				
 			}
@@ -113,7 +113,7 @@ public class Checloginfunctionality {
 	@AfterClass
 	public static void afterclass() {
 		reports.flush();
-		Baseclass1.unloaddriver();
+		
 		
 	}
 }

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [cross browser testing]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="chrometest(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="fundmodule.Checloginfunctionality">
+      <class name="fundmodule.verifyusercanclickonelment">
         <methods>
-          <include name="afterclass"/>
-          <include name="aftermethod"/>
-          <include name="beforemethod"/>
-          <include name="verifyusercanopenaddfundbuttonwindow"/>
-          <include name="beforeclass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="Verifyusercanclickonelement"/>
         </methods>
-      </class> <!-- fundmodule.Checloginfunctionality -->
+      </class> <!-- fundmodule.verifyusercanclickonelment -->
     </classes>
-  </test> <!-- chrometest(failed) -->
-</suite> <!-- Failed suite [cross browser testing] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

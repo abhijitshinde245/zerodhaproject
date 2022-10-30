@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.Iterator;
 import java.util.Set;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -21,6 +22,8 @@ public class HomePage extends UtilClass1{
 	@FindBy(xpath = "//button[@type='submit']") private WebElement continuebutton;
 	@FindBy(xpath = "//h1[text()='Deposit funds']") private WebElement depositfundtext;
 	@FindBy(xpath = "(//div[@class='addfunds-failure text-center']//child::p)[1]") private WebElement paymentstatus;
+	@FindBy(xpath = "//input[@type='text']") private WebElement searchfield;
+
 	
 	
 	public HomePage(WebDriver driver) {
@@ -37,7 +40,7 @@ public class HomePage extends UtilClass1{
 	public void Addfundbotton() {
 		addfundbotton.click();
 	}
-	public static WebDriver switchtopage() {
+	public static WebDriver switchtochildpage() {
 		
 		Set<String> windowhandle = driver.getWindowHandles();
 		Iterator<String> it = windowhandle.iterator();
@@ -46,6 +49,18 @@ public class HomePage extends UtilClass1{
 		WebDriver Childwindow = driver.switchTo().window(childwindow);
 		
 			return Childwindow;
+			
+		
+	}
+public static WebDriver switchtomainpage() {
+		
+		Set<String> windowhandle = driver.getWindowHandles();
+		Iterator<String> it = windowhandle.iterator();
+		String mainwindow = it.next();
+		String childwindow = it.next();
+		WebDriver Mainwindow = driver.switchTo().window(mainwindow);
+		
+			return Mainwindow;
 			
 		
 	}
@@ -70,4 +85,15 @@ public class HomePage extends UtilClass1{
 		
 	 return Paymentstatus;
 	}
+	public static void ClickOnElement() throws InterruptedException {
+		for(int i=1; i<=5; i++) {
+			driver.findElement(By.xpath("(//div[@class='app-nav']//child::a)["+i+"]")).click();
+			Thread.sleep(2000);
+		}
+			
+	}
+	public void Searchfield() {
+		searchfield.sendKeys("tata motors");
+	}
+	
 }

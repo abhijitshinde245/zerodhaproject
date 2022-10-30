@@ -4,15 +4,15 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="fundmodule.Checloginfunctionality">
+      <class name="fundmodule.verifyusercanclickonelment">
         <methods>
-          <include name="afterclass"/>
-          <include name="aftermethod"/>
-          <include name="Verifyusercanlogin"/>
-          <include name="beforemethod"/>
-          <include name="beforeclass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="Verifyusercanclickonelement"/>
         </methods>
-      </class> <!-- fundmodule.Checloginfunctionality -->
+      </class> <!-- fundmodule.verifyusercanclickonelment -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

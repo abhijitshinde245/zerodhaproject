@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-19T12:38:31 IST" name="cross browser testing" finished-at="2022-10-19T12:39:10 IST" duration-ms="38900">
+  <suite started-at="2022-10-22T08:26:55 IST" name="Suite" finished-at="2022-10-22T08:27:42 IST" duration-ms="46566">
     <groups>
     </groups>
-    <test started-at="2022-10-19T12:38:31 IST" name="chrometest" finished-at="2022-10-19T12:39:10 IST" duration-ms="38900">
+    <test started-at="2022-10-22T08:26:55 IST" name="Test" finished-at="2022-10-22T08:27:42 IST" duration-ms="46566">
       <class name="fundmodule.Checloginfunctionality">
-        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:fundmodule.Checloginfunctionality@4a003cbe]" started-at="2022-10-19T12:38:31 IST" name="beforeclass" finished-at="2022-10-19T12:38:37 IST" duration-ms="6114" status="PASS">
+        <test-method is-config="true" signature="beforeclass(java.lang.String)[pri:0, instance:fundmodule.Checloginfunctionality@43df23d3]" started-at="2022-10-22T08:26:55 IST" name="beforeclass" finished-at="2022-10-22T08:27:03 IST" duration-ms="7653" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,106 +18,142 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:fundmodule.Checloginfunctionality@4a003cbe]" started-at="2022-10-19T12:38:37 IST" name="beforemethod" finished-at="2022-10-19T12:38:37 IST" duration-ms="70" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:fundmodule.Checloginfunctionality@43df23d3]" started-at="2022-10-22T08:27:03 IST" name="beforemethod" finished-at="2022-10-22T08:27:03 IST" duration-ms="79" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="Verifyusercanlogin()[pri:1, instance:fundmodule.Checloginfunctionality@4a003cbe]" started-at="2022-10-19T12:38:37 IST" name="Verifyusercanlogin" finished-at="2022-10-19T12:38:45 IST" duration-ms="8284" status="PASS">
+        <test-method signature="Verifyusercanlogin()[pri:1, instance:fundmodule.Checloginfunctionality@43df23d3]" started-at="2022-10-22T08:27:03 IST" name="Verifyusercanlogin" finished-at="2022-10-22T08:27:12 IST" duration-ms="9259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verifyusercanlogin -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:fundmodule.Checloginfunctionality@4a003cbe]" started-at="2022-10-19T12:38:45 IST" name="aftermethod" finished-at="2022-10-19T12:38:46 IST" duration-ms="252" status="PASS">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:fundmodule.Checloginfunctionality@43df23d3]" started-at="2022-10-22T08:27:12 IST" name="aftermethod" finished-at="2022-10-22T08:27:12 IST" duration-ms="374" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Verifyusercanlogin status=SUCCESS method=Checloginfunctionality.Verifyusercanlogin()[pri:1, instance:fundmodule.Checloginfunctionality@4a003cbe] output={null}]]]>
+                <![CDATA[[TestResult name=Verifyusercanlogin status=SUCCESS method=Checloginfunctionality.Verifyusercanlogin()[pri:1, instance:fundmodule.Checloginfunctionality@43df23d3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:fundmodule.Checloginfunctionality@4a003cbe]" started-at="2022-10-19T12:38:46 IST" name="beforemethod" finished-at="2022-10-19T12:38:46 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:fundmodule.Checloginfunctionality@43df23d3]" started-at="2022-10-22T08:27:12 IST" name="beforemethod" finished-at="2022-10-22T08:27:12 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verifyusercanclickonfundbutton()[pri:2, instance:fundmodule.Checloginfunctionality@4a003cbe]" started-at="2022-10-19T12:38:46 IST" name="verifyusercanclickonfundbutton" finished-at="2022-10-19T12:38:46 IST" duration-ms="219" status="PASS">
+        <test-method signature="verifyusercanclickonfundbutton()[pri:2, instance:fundmodule.Checloginfunctionality@43df23d3]" started-at="2022-10-22T08:27:12 IST" name="verifyusercanclickonfundbutton" finished-at="2022-10-22T08:27:13 IST" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyusercanclickonfundbutton -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:fundmodule.Checloginfunctionality@4a003cbe]" started-at="2022-10-19T12:38:46 IST" name="aftermethod" finished-at="2022-10-19T12:38:46 IST" duration-ms="325" status="PASS">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:fundmodule.Checloginfunctionality@43df23d3]" started-at="2022-10-22T08:27:13 IST" name="aftermethod" finished-at="2022-10-22T08:27:13 IST" duration-ms="268" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyusercanclickonfundbutton status=SUCCESS method=Checloginfunctionality.verifyusercanclickonfundbutton()[pri:2, instance:fundmodule.Checloginfunctionality@4a003cbe] output={null}]]]>
+                <![CDATA[[TestResult name=verifyusercanclickonfundbutton status=SUCCESS method=Checloginfunctionality.verifyusercanclickonfundbutton()[pri:2, instance:fundmodule.Checloginfunctionality@43df23d3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:fundmodule.Checloginfunctionality@4a003cbe]" started-at="2022-10-19T12:38:46 IST" name="beforemethod" finished-at="2022-10-19T12:38:46 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:fundmodule.Checloginfunctionality@43df23d3]" started-at="2022-10-22T08:27:13 IST" name="beforemethod" finished-at="2022-10-22T08:27:13 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verifyusercanopenaddfundbuttonwindow()[pri:3, instance:fundmodule.Checloginfunctionality@4a003cbe]" started-at="2022-10-19T12:38:46 IST" name="verifyusercanopenaddfundbuttonwindow" finished-at="2022-10-19T12:38:49 IST" duration-ms="3245" status="PASS">
+        <test-method signature="verifyusercanopenaddfundbuttonwindow()[pri:3, instance:fundmodule.Checloginfunctionality@43df23d3]" started-at="2022-10-22T08:27:13 IST" name="verifyusercanopenaddfundbuttonwindow" finished-at="2022-10-22T08:27:22 IST" duration-ms="8987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyusercanopenaddfundbuttonwindow -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:fundmodule.Checloginfunctionality@4a003cbe]" started-at="2022-10-19T12:38:49 IST" name="aftermethod" finished-at="2022-10-19T12:38:50 IST" duration-ms="157" status="PASS">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:fundmodule.Checloginfunctionality@43df23d3]" started-at="2022-10-22T08:27:22 IST" name="aftermethod" finished-at="2022-10-22T08:27:22 IST" duration-ms="134" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyusercanopenaddfundbuttonwindow status=SUCCESS method=Checloginfunctionality.verifyusercanopenaddfundbuttonwindow()[pri:3, instance:fundmodule.Checloginfunctionality@4a003cbe] output={null}]]]>
+                <![CDATA[[TestResult name=verifyusercanopenaddfundbuttonwindow status=SUCCESS method=Checloginfunctionality.verifyusercanopenaddfundbuttonwindow()[pri:3, instance:fundmodule.Checloginfunctionality@43df23d3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:fundmodule.Checloginfunctionality@4a003cbe]" started-at="2022-10-19T12:38:50 IST" name="beforemethod" finished-at="2022-10-19T12:38:50 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:fundmodule.Checloginfunctionality@43df23d3]" started-at="2022-10-22T08:27:22 IST" name="beforemethod" finished-at="2022-10-22T08:27:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verifyusercanaddfund()[pri:4, instance:fundmodule.Checloginfunctionality@4a003cbe]" started-at="2022-10-19T12:38:50 IST" name="verifyusercanaddfund" finished-at="2022-10-19T12:38:50 IST" duration-ms="162" status="PASS">
+        <test-method signature="verifyusercanaddfund()[pri:4, instance:fundmodule.Checloginfunctionality@43df23d3]" started-at="2022-10-22T08:27:22 IST" name="verifyusercanaddfund" finished-at="2022-10-22T08:27:22 IST" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyusercanaddfund -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:fundmodule.Checloginfunctionality@4a003cbe]" started-at="2022-10-19T12:38:50 IST" name="aftermethod" finished-at="2022-10-19T12:38:57 IST" duration-ms="7027" status="PASS">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:fundmodule.Checloginfunctionality@43df23d3]" started-at="2022-10-22T08:27:22 IST" name="aftermethod" finished-at="2022-10-22T08:27:22 IST" duration-ms="222" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyusercanaddfund status=SUCCESS method=Checloginfunctionality.verifyusercanaddfund()[pri:4, instance:fundmodule.Checloginfunctionality@4a003cbe] output={null}]]]>
+                <![CDATA[[TestResult name=verifyusercanaddfund status=SUCCESS method=Checloginfunctionality.verifyusercanaddfund()[pri:4, instance:fundmodule.Checloginfunctionality@43df23d3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:fundmodule.Checloginfunctionality@4a003cbe]" started-at="2022-10-19T12:38:57 IST" name="beforemethod" finished-at="2022-10-19T12:38:57 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:fundmodule.Checloginfunctionality@43df23d3]" started-at="2022-10-22T08:27:22 IST" name="beforemethod" finished-at="2022-10-22T08:27:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verifypaymentstatus()[pri:5, instance:fundmodule.Checloginfunctionality@4a003cbe]" started-at="2022-10-19T12:38:57 IST" name="verifypaymentstatus" finished-at="2022-10-19T12:39:09 IST" duration-ms="11874" status="PASS">
+        <test-method signature="verifypaymentstatus()[pri:5, instance:fundmodule.Checloginfunctionality@43df23d3]" started-at="2022-10-22T08:27:22 IST" name="verifypaymentstatus" finished-at="2022-10-22T08:27:40 IST" duration-ms="17361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifypaymentstatus -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:fundmodule.Checloginfunctionality@4a003cbe]" started-at="2022-10-19T12:39:09 IST" name="aftermethod" finished-at="2022-10-19T12:39:09 IST" duration-ms="159" status="PASS">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:fundmodule.Checloginfunctionality@43df23d3]" started-at="2022-10-22T08:27:40 IST" name="aftermethod" finished-at="2022-10-22T08:27:40 IST" duration-ms="189" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifypaymentstatus status=SUCCESS method=Checloginfunctionality.verifypaymentstatus()[pri:5, instance:fundmodule.Checloginfunctionality@4a003cbe] output={null}]]]>
+                <![CDATA[[TestResult name=verifypaymentstatus status=SUCCESS method=Checloginfunctionality.verifypaymentstatus()[pri:5, instance:fundmodule.Checloginfunctionality@43df23d3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:fundmodule.Checloginfunctionality@4a003cbe]" started-at="2022-10-19T12:39:09 IST" name="afterclass" finished-at="2022-10-19T12:39:10 IST" duration-ms="900" status="PASS">
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:fundmodule.Checloginfunctionality@43df23d3]" started-at="2022-10-22T08:27:40 IST" name="afterclass" finished-at="2022-10-22T08:27:41 IST" duration-ms="826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
       </class> <!-- fundmodule.Checloginfunctionality -->
-    </test> <!-- chrometest -->
-  </suite> <!-- cross browser testing -->
+      <class name="fundmodule.verifyusercanclickonelment">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:fundmodule.verifyusercanclickonelment@1972e513]" started-at="2022-10-22T08:27:41 IST" name="beforeClass" finished-at="2022-10-22T08:27:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:fundmodule.verifyusercanclickonelment@1972e513]" started-at="2022-10-22T08:27:41 IST" name="beforeMethod" finished-at="2022-10-22T08:27:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Verifyusercanclickonelement()[pri:0, instance:fundmodule.verifyusercanclickonelment@1972e513]" started-at="2022-10-22T08:27:41 IST" name="Verifyusercanclickonelement" finished-at="2022-10-22T08:27:41 IST" duration-ms="536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyusercanclickonelement -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:fundmodule.verifyusercanclickonelment@1972e513]" started-at="2022-10-22T08:27:41 IST" name="afterMethod" finished-at="2022-10-22T08:27:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verifyusercanclickonelement status=SUCCESS method=verifyusercanclickonelment.Verifyusercanclickonelement()[pri:0, instance:fundmodule.verifyusercanclickonelment@1972e513] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:fundmodule.verifyusercanclickonelment@1972e513]" started-at="2022-10-22T08:27:41 IST" name="afterClass" finished-at="2022-10-22T08:27:42 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- fundmodule.verifyusercanclickonelment -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
